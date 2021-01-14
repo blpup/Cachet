@@ -11966,7 +11966,7 @@ body.error-page h3.font-bold {
 }
 
 body.dashboard {
-  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   display: table;
