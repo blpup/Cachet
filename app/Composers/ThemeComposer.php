@@ -50,7 +50,7 @@ class ThemeComposer
      */
     public function compose(View $view)
     {
-        $view->withThemeBackgroundColor($this->config->get('setting.style_background_color', '#F0F3F4'));
+        $view->withThemeBackgroundColor($this->config->get('setting.style_background_color', '#fdfdfd'));
         $view->withThemeBackgroundFills($this->config->get('setting.style_background_fills', '#FFFFFF'));
         $view->withThemeBannerBackgroundColor($this->config->get('setting.style_banner_background_color', ''));
         $view->withThemeBannerPadding($this->config->get('setting.style_banner_padding', '40px 0'));
